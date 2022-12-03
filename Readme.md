@@ -11,8 +11,9 @@ Scripts are widely used to **automate processes** such as ETL jobs, file backups
 ## How to run a Shell Script
 
 Give the permission to run the file by **chmod 744**
+
 7 is for us **(owner of file)** -> Read(4) + Write(2) + Execute(1)  
-Next two **4** are for group & others respectively -> Read(4)
+Next two **4** are for **group & others** respectively -> Read(4)
 
 To **execute** the file -> **./file name**
 
