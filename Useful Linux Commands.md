@@ -1,13 +1,37 @@
-1. **df** - Print disk space.
+### df
 
-2. **free** - Getting free memory on the disk.
+It Prints disk space. **df -H** prints it in Human readable format.
 
-3. **nproc** - For analyzing number of CPU'S.
+### free
 
-4. **top** - Check running processes & analyze Node Health.
+It prints the free memory available on the disk. **free -H** prints it in Human readble format.
 
-5. **curl** <link> - Gets the O/P on the terminal.
+### nproc
 
-6. **wget** <linK> - Downloads the O/P on our machine.
+For analyzing number of **CPU'S** - **processing units available**
 
-7. **find** - Searches for file in your entire filesystem.
+### top
+
+Checks running processes & analyze Node Health. It gives a dynamic **real - time view** of the system.
+
+### curl link
+
+Gets the O/P on the terminal from the remote website.
+
+### wget link
+
+Downloads the O/P on our machine from the remote website.
+
+### find
+
+Searches for file in your entire filesystem. find /home/ -name filename gives you the path to your file.
+You can also find all files that end with a similar pattern. Eg. **find /home/ -name "\*.txt"**
+
+**star will replace the original terms**
+
+If we want to search only file / directory, then use f - file, d- directory.
+Eg. \*_find /home/ -type d -name "dir_"
+
+### awk
+
+Get specific column information from the output of a command.
